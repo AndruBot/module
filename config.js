@@ -1,6 +1,5 @@
-module.exports = (config) => {
+module.exports = (baseConfig) => {
   return {
-    ...config,
     module: 'custom npm module config!'
   }
 }
